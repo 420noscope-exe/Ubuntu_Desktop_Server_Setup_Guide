@@ -24,6 +24,14 @@ Generate a new password to use, and document it!
 The hostname should follow this scheme {organization}{xyz}{number}
 
 Example:  PASAPP01
+### Enable OpenSSH
+
+If openssh is not installed/enabled, you can do so with the following commands:
+
+```
+sudo apt-get install openssh-server
+sudo systemctl enable --now ssh
+```
 ## Install Remote Access Solution
 
 Install remote access solution of your choice.  You will not be able to use it correctly until Xorg and an appropriate desktop environment is installed.
