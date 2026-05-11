@@ -1,5 +1,6 @@
 ## Make install media
-[Download the iso](https://ubuntu.com/download/desktop)
+
+Using Ubuntu Desktop instead of Ubuntu server gives you some additional packages and utilities by default.  [Download the iso](https://ubuntu.com/download/desktop)
 
 Use dd to make a bootable drive.  You will need the path to the .iso, and the path to the USB drive. 
 
