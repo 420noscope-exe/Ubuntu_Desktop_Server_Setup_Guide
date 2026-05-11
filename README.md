@@ -1,8 +1,6 @@
 ## Make install media
 [Download the iso](https://ubuntu.com/download/desktop)
 
-[[Making a bootable usb with dd]]
-
 Use dd to make a bootable drive.  You will need the path to the .iso, and the path to the USB drive. 
 
 ```
