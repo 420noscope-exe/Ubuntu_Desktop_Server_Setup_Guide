@@ -32,6 +32,7 @@ If openssh is not installed/enabled, you can do so with the following commands:
 ```
 sudo apt-get install openssh-server
 sudo systemctl enable --now ssh
+sudo ufw allow ssh
 ```
 ## Install Remote Access Solution
 
